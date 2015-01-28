@@ -17,9 +17,9 @@ module.exports = function (grunt) {
             // },
             less : {
               files: ['css/*.less']
-              ,tasks: ['less']
+              ,tasks: ['less:dist']
             },
-        }
+        },
 
   //   ,aws: grunt.file.readJSON('../../s3.json')
   //   ,s3: {
